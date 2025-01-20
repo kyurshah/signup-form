@@ -23,11 +23,13 @@ body {
     width: 100vw;
 }
 
-h1 {
+#left-container {
+    background-color: ;
+}
+
+#odin-title {
     color: white;
     font-family: 'norsebold';
-    background-color: #000000;
-    opacity: 50%;
     font-size: 90px;
     text-align: center;
 }
@@ -36,13 +38,24 @@ h1 {
     height: 90px;
 }
 
-
+h1 {
+    color: white;
+    font-family: 'norsebold';
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 90px;
+    text-align: center;
+}
 
 #left-container {
-    min-width: 35%;
-    max-width: 35%;
     background-image: url(./images/halie-west-25xggax4bSA-unsplash.jpg);
     background-size:cover;
+    height: 100vh;
+    width: 50%;
+}
+
+#right-container {
+    height: 100vh;
+    max-width: 70%;
 }
 
 form {
@@ -89,8 +102,27 @@ label, input {
 
 label {
     font-size: 10px;
+    color: #474749;
 }
 
+input {
+    color: #2c2c2e;
+    border-radius: 5px;
+    border: #E5E7EB solid 1px;
+    height: 22px;
+}
+
+input:hover {
+    border: #7979ec solid 1px;
+}
+
+input:invalid {
+    border: red solid 1px;
+}
+
+button:hover {
+    cursor: pointer;
+}
 
 #core-content {
     padding: 50px 30px 0px;
