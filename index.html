@@ -27,32 +27,33 @@
                 <form action="get">
                     <h2>Let's do this!</h2>
                     <div class="form-row-cell">
-                        <label for="first-name">FIRST NAME</label> <input type="text" id="first-name">
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" id="first-name" maxlength="50" required>
                     </div>
 
                     <div class="form-row-cell">
                         <label for="last-name">LAST NAME</label>
-                        <input type="text" id="last-name">
+                        <input type="text" id="last-name" maxlength="50" required>
                     </div>
 
                     <div class="form-row-cell">
                         <label for="user-email">EMAIL</label>
-                        <input type="email" id="user-email">
+                        <input type="email" id="user-email" required>
                     </div>
 
                     <div class="form-row-cell">
                         <label for="user-phone">PHONE</label>
-                        <input type="tel" id="user-phone">
+                        <input type="tel" id="user-phone" required>
                     </div>
 
                     <div class="form-row-cell">
                         <label for="user-pwd">PASSWORD</label>
-                        <input type="password" id="user-pwd">
+                        <input type="password" id="user-pwd" minlength="11" maxlength="25" required>
                     </div>
 
                     <div class="form-row-cell">
                         <label for="user-confirm-pwd">CONFIRM PASSWORD</label>
-                        <input type="password" id="user-confirm-pwd">
+                        <input type="password" id="user-confirm-pwd" minlength="11" maxlength="25" required>
                     </div>
 
             </div>

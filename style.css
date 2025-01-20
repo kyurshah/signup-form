@@ -44,6 +44,7 @@ h1 {
     background-color: rgba(0, 0, 0, 0.5);
     font-size: 90px;
     text-align: center;
+    margin-top: 100px;
 }
 
 #left-container {
@@ -118,6 +119,10 @@ input:hover {
 
 input:invalid {
     border: red solid 1px;
+}
+
+input:empty {
+    border: #E5E7EB solid 1px;
 }
 
 button:hover {
